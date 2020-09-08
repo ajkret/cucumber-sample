@@ -32,12 +32,11 @@ public class DepartureServiceStepdefs {
   @Given("^there are scheduled departures from an airport in the next hours$")
   public void thereAreScheduledDeparturesFromAnAirportInTheNextHours() {
     airportCode = "AMS";
-    direction = "D";
   }
 
   @And("^there are flights that already departed in the past hours$")
   public void thereAreFlightsThatAlreadyDepartedInThePastHours() {
-    // Flifo end-to-end script should have been executed. For this demonstration the response is mocked in Mockoon
+    direction = "D";
   }
 
   @And("^the past and future windows were not changed$")
