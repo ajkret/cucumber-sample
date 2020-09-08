@@ -1,0 +1,3 @@
+application:
+  fids-client:
+    host: http://localhost:3001

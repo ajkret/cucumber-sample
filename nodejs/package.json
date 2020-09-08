@@ -1,0 +1,14 @@
+{
+  "name": "cucumber-example",
+  "version": "1.0.0",
+  "description": "CucumberJS Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  }
+}
